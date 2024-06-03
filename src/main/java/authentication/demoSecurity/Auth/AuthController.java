@@ -16,4 +16,9 @@ public class AuthController {
     public String login(){
         return "Login from public endpoint";
     }
+
+    @PostMapping(value="register")
+    public String register(){
+        return "Register from public endpoint";
+    }
 }
